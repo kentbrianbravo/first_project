@@ -16,9 +16,9 @@ public class employeeBonusCalculator{
             bonus = 2500;
         }
 
-        if(yearsOfExperience <= 2){
-            bonus = bonus / 2;
-        }
+        // if(yearsOfExperience <= 2){
+        //     bonus = bonus / 2;
+        // }
 
         System.out.println("The employee's bonus is: Php " + bonus);
 
