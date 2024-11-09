@@ -1,0 +1,33 @@
+S3 bucket: c107432a2525761l7576698t1w732929627094-s3bucket-ixnx7kwrxubs
+CloudFront distribution domain: d33lvgruu4soz1.cloudfront.net
+User pool ID: 
+App client ID: 
+Amazon Cognito domain prefix: 
+Identity pool ID: 
+
+
+clientID: 5r59ii2lk9lrt2gd8pd0csovsg
+userpoolID: us-east-1_gepgtDaOg
+
+IdentityPoolID: us-east-1:2f80a040-5a17-45c7-85c0-14a59381ddf9
+
+cd /home/ec2-user/environment
+aws s3 cp website s3://c107432a2525761l7576698t1w732929627094-s3bucket-ixnx7kwrxubs/ --recursive --cache-control "max- age=0"
+
+
+cd /home/ec2-user/environment
+aws s3 cp website s3://c107432a2525761l7576698t1w732929627094-s3bucket-ixnx7kwrxubs/ --recursive --cache-control "max-age=0"
+
+
+domain: https://kbravo100
+
+
+cd /home/ec2-user/environment
+aws s3 cp website s3://c107432a2525761l7576698t1w732929627094-s3bucket-ixnx7kwrxubs/ --recursive --cache-control "max-age=0"
+
+
+
+https://d33lvgruu4soz1.cloudfront.net/callback.html
+
+
+eyJraWQiOiIzcHVWWnV0dEVKcm9YRjdrd0Yya1laWmY1N1JtXC9vdVlmM1pxMmszZ1llRT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiTVprN19JT0VIRTI3Wi1OX2tjd2NCZyIsInN1YiI6IjY0NDhiNDU4LWUwNDEtNzBmNC00MzA3LTc4ZmZlOWFjZTZjZSIsImF1ZCI6IjVyNTlpaTJsazlscnQyZ2Q4cGQwY3NvdnNnIiwiZXZlbnRfaWQiOiJlNDdiODNhZi1iMjAxLTQ1YmYtOWM0YS1jOTlkNjQ1OTAyZWQiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTcyNjkxMDA1NiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfZ2VwZ3REYU9nIiwiY29nbml0bzp1c2VybmFtZSI6InRlc3RzdHVkZW50IiwiZXhwIjoxNzI2OTEzNjU2LCJpYXQiOjE3MjY5MTAwNTYsImp0aSI6ImUxN2MyYzFmLTBiNDUtNDY2Ni04MzE4LWFhMTYyNTk5ODdkNSJ9.Hdiki6w7GIdQmLi3N-Bqkjs-DNG3qcgBQckTCUd88nTOfsp2OFm46S1f7QGIgrOMgMZnJbkz7fNtaAwBnHzM67pYRNKcMAeZLvx9Qy1dme9BPVmUO-bdaisdXvkw5m-WULkuYphsDUSESASlkht6iD_jfrvdn9dsDUvu22GtqNtzYrk0iXRGyJCnwK38QVnhRc3FAcT2JiXIF8UedxUm3uokHifv6gvrqjovSVP77-_Rh-nZNx3p7HRq2-fFuT6igY2HhMIvt1qEcj8lQmEaCXQiVBj9foZykQqvtPzoazTn5gMw2XnunM4n4SamzSeulnBsiZ_z6klwRPr1ECucog
